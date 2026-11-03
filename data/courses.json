@@ -1,0 +1,62 @@
+[
+  {
+    "id": "MATH-101",
+    "name": "Algebra II",
+    "grade": "10",
+    "teacher_id": "T-3001",
+    "schedule": "Mon/Wed/Fri 9:00-10:00 AM",
+    "syllabus": {
+      "topics": [
+        "Quadratic equations and functions",
+        "Polynomial operations",
+        "Rational expressions",
+        "Exponential functions",
+        "Logarithms"
+      ],
+      "grading": {
+        "homework": 20,
+        "quizzes": 30,
+        "tests": 40,
+        "final": 10
+      }
+    }
+  },
+  {
+    "id": "ENG-201",
+    "name": "American Literature",
+    "grade": "10",
+    "teacher_id": "T-3002",
+    "schedule": "Tue/Thu 10:00-11:30 AM",
+    "syllabus": {
+      "topics": [
+        "Colonial and Revolutionary literature",
+        "19th century American authors",
+        "Modern American fiction",
+        "Poetry analysis",
+        "Essay writing"
+      ],
+      "reading_list": [
+        "To Kill a Mockingbird",
+        "The Great Gatsby",
+        "The Scarlet Letter"
+      ]
+    }
+  },
+  {
+    "id": "SCI-301",
+    "name": "Biology",
+    "grade": "10",
+    "teacher_id": "T-3003",
+    "schedule": "Mon/Wed 1:00-2:30 PM",
+    "syllabus": {
+      "topics": [
+        "Cell structure and function",
+        "Photosynthesis and cellular respiration",
+        "Genetics and heredity",
+        "Evolution",
+        "Ecology"
+      ],
+      "lab_requirements": "Weekly lab reports, safety certification required"
+    }
+  }
+]

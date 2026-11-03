@@ -1,0 +1,82 @@
+[
+  {
+    "id": "A-5001",
+    "course_id": "MATH-101",
+    "title": "Quadratic Equations Practice",
+    "description": "Solve 10 quadratic equations using the quadratic formula",
+    "type": "graded",
+    "due_date": "2026-11-15",
+    "status": "assigned",
+    "points": 100,
+    "topics": ["algebra", "quadratics", "quadratic-formula"],
+    "student_id": "S-1001",
+    "teacher_id": "T-3001",
+    "problems": [
+      {"number": 1, "text": "Solve: x² + 5x + 6 = 0"},
+      {"number": 2, "text": "Solve: 2x² - 7x + 3 = 0"},
+      {"number": 3, "text": "Solve: x² - 4x - 5 = 0"},
+      {"number": 4, "text": "Solve: 3x² + 2x - 8 = 0"},
+      {"number": 5, "text": "Solve: x² + 6x + 9 = 0"}
+    ]
+  },
+  {
+    "id": "A-5002",
+    "course_id": "ENG-201",
+    "title": "Essay: To Kill a Mockingbird Analysis",
+    "description": "Write a 3-page essay analyzing the theme of justice in To Kill a Mockingbird",
+    "type": "graded",
+    "due_date": "2026-11-20",
+    "status": "assigned",
+    "points": 100,
+    "topics": ["literature", "essay-writing", "analysis"],
+    "student_id": "S-1001",
+    "teacher_id": "T-3002"
+  },
+  {
+    "id": "A-5003",
+    "course_id": "SCI-301",
+    "title": "Lab Report: Photosynthesis Experiment",
+    "description": "Complete lab report on photosynthesis rate experiment",
+    "type": "graded",
+    "due_date": "2026-11-12",
+    "status": "submitted",
+    "points": 50,
+    "topics": ["biology", "photosynthesis", "lab-report"],
+    "student_id": "S-1001",
+    "teacher_id": "T-3003",
+    "submitted_date": "2026-11-11"
+  },
+  {
+    "id": "A-5004",
+    "course_id": "MATH-101",
+    "title": "Factoring Practice Problems",
+    "description": "Practice factoring polynomials - not graded",
+    "type": "practice",
+    "due_date": null,
+    "status": "assigned",
+    "points": 0,
+    "topics": ["algebra", "factoring", "polynomials"],
+    "student_id": "S-1001",
+    "teacher_id": "T-3001"
+  },
+  {
+    "id": "A-5005",
+    "course_id": "MATH-101",
+    "title": "Quadratic Equations Practice",
+    "description": "Solve 10 quadratic equations using the quadratic formula",
+    "type": "graded",
+    "due_date": "2026-11-15",
+    "status": "assigned",
+    "points": 100,
+    "topics": ["algebra", "quadratics", "quadratic-formula"],
+    "student_id": "S-1002",
+    "teacher_id": "T-3001",
+    "problems": [
+      {"number": 1, "text": "Solve: x² + 5x + 6 = 0"},
+      {"number": 2, "text": "Solve: 2x² - 7x + 3 = 0"},
+      {"number": 3, "text": "Solve: x² - 4x - 5 = 0"},
+      {"number": 4, "text": "Solve: 3x² + 2x - 8 = 0"},
+      {"number": 5, "text": "Solve: x² + 6x + 9 = 0"}
+    ]
+  }
+]

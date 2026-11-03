@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "student.john",
+      "student_id": "S-1001",
+      "name": "John Doe",
+      "role": "student",
+      "classes": ["MATH-101", "ENG-201", "SCI-301"],
+      "grade": "10"
+    },
+    {
+      "id": "student.jane",
+      "student_id": "S-1002",
+      "name": "Jane Smith",
+      "role": "student",
+      "classes": ["MATH-101", "ENG-201", "HIST-401"],
+      "grade": "10"
+    },
+    {
+      "id": "student.bob",
+      "student_id": "S-1003",
+      "name": "Bob Johnson",
+      "role": "student",
+      "classes": ["MATH-201", "SCI-301", "COMP-501"],
+      "grade": "11"
+    },
+    {
+      "id": "teacher.smith",
+      "teacher_id": "T-3001",
+      "name": "Mr. Smith",
+      "role": "teacher",
+      "classes": ["MATH-101", "MATH-201"],
+      "can_grade": true,
+      "can_approve_hints": true
+    },
+    {
+      "id": "teacher.jones",
+      "teacher_id": "T-3002",
+      "name": "Ms. Jones",
+      "role": "teacher",
+      "classes": ["ENG-201"],
+      "can_grade": true,
+      "can_approve_hints": true
+    },
+    {
+      "id": "teacher.wilson",
+      "teacher_id": "T-3003",
+      "name": "Dr. Wilson",
+      "role": "teacher",
+      "classes": ["SCI-301"],
+      "can_grade": true,
+      "can_approve_hints": true
+    },
+    {
+      "id": "parent.doe",
+      "parent_id": "P-2001",
+      "name": "Parent of John Doe",
+      "role": "parent",
+      "children": ["S-1001"]
+    },
+    {
+      "id": "admin.principal",
+      "name": "Principal Anderson",
+      "role": "admin",
+      "can_manage_all": true
+    }
+  ]
+}

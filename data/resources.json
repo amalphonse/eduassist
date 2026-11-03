@@ -1,0 +1,59 @@
+[
+  {
+    "id": "R-3001",
+    "title": "Quadratic Formula Explained - Khan Academy",
+    "type": "video",
+    "url": "https://www.khanacademy.org/math/algebra/quadratics/quadratic-formula",
+    "topics": ["algebra", "quadratics", "quadratic-formula"],
+    "grade_level": "9-12",
+    "duration_min": 12,
+    "description": "Step-by-step explanation of the quadratic formula with examples"
+  },
+  {
+    "id": "R-3002",
+    "title": "Factoring Polynomials Practice",
+    "type": "practice",
+    "url": "https://www.khanacademy.org/math/algebra/factoring",
+    "topics": ["algebra", "factoring", "polynomials"],
+    "grade_level": "9-11",
+    "description": "Interactive practice problems for factoring polynomials"
+  },
+  {
+    "id": "R-3003",
+    "title": "To Kill a Mockingbird Study Guide",
+    "type": "article",
+    "url": "https://www.sparknotes.com/lit/mocking/",
+    "topics": ["literature", "analysis", "to-kill-a-mockingbird"],
+    "grade_level": "9-12",
+    "description": "Comprehensive study guide with themes, symbols, and analysis"
+  },
+  {
+    "id": "R-3004",
+    "title": "Photosynthesis Animation - Crash Course",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=photosynthesis",
+    "topics": ["biology", "photosynthesis", "cellular-processes"],
+    "grade_level": "9-12",
+    "duration_min": 10,
+    "description": "Animated explanation of photosynthesis process"
+  },
+  {
+    "id": "R-3005",
+    "title": "Writing Lab Reports - Purdue OWL",
+    "type": "article",
+    "url": "https://owl.purdue.edu/owl/subject_specific_writing/lab_reports.html",
+    "topics": ["science", "lab-report", "writing"],
+    "grade_level": "9-12",
+    "description": "Guide to writing effective lab reports"
+  },
+  {
+    "id": "R-3006",
+    "title": "Solving Quadratics by Factoring",
+    "type": "video",
+    "url": "https://www.khanacademy.org/math/algebra/quadratics/factoring",
+    "topics": ["algebra", "quadratics", "factoring"],
+    "grade_level": "9-11",
+    "duration_min": 8,
+    "description": "How to solve quadratic equations by factoring"
+  }
+]

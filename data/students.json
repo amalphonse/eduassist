@@ -1,0 +1,29 @@
+[
+  {
+    "id": "S-1001",
+    "name": "John Doe",
+    "email": "john.doe@school.edu",
+    "grade": "10",
+    "classes": ["MATH-101", "ENG-201", "SCI-301"],
+    "parent_id": "P-2001",
+    "gpa": 3.7
+  },
+  {
+    "id": "S-1002",
+    "name": "Jane Smith",
+    "email": "jane.smith@school.edu",
+    "grade": "10",
+    "classes": ["MATH-101", "ENG-201", "HIST-401"],
+    "parent_id": "P-2002",
+    "gpa": 3.9
+  },
+  {
+    "id": "S-1003",
+    "name": "Bob Johnson",
+    "email": "bob.johnson@school.edu",
+    "grade": "11",
+    "classes": ["MATH-201", "SCI-301", "COMP-501"],
+    "parent_id": "P-2003",
+    "gpa": 3.5
+  }
+]
