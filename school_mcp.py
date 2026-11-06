@@ -82,6 +82,15 @@ def list_assignments(status: str | None = None, due_before: str | None = None,
         return _denied(e)
 
 
+@server.tool(description="List all courses accessible to the current user. Students see their "
+                         "enrolled courses, teachers see courses they teach, admins see all. Risk: read.")
+def list_courses() -> str:
+    try:
+        return _text(S.list_courses(USER))
+    except S.Denied as e:
+        return _denied(e)
+
+
 @server.tool(description="Get course information including name, grade level, teacher, schedule, "
                          "and syllabus. Use this when students ask about course details. Risk: read.")
 def get_course(course_id: str) -> str:

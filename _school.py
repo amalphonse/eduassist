@@ -21,6 +21,7 @@ RISK = {
     # Read operations
     "get_assignment": "read",
     "list_assignments": "read",
+    "list_courses": "read",
     "get_course": "read",
     "get_syllabus": "read",
     "get_schedule": "read",
@@ -295,6 +296,22 @@ def submit_work(user: str, assignment_id: str, answers: dict) -> dict:
         "submission_id": submission_id,
         "message": "Work submitted successfully"
     }
+
+
+def list_courses(user: str) -> list[dict]:
+    """List all courses the user can access"""
+    u = _user(user)
+    args = {}
+
+    all_courses = _courses()
+    accessible = []
+
+    for course in all_courses:
+        if _in_scope(u, None, course["id"]):
+            accessible.append(course)
+
+    _audit(u["id"], "list_courses", args, allowed=True, count=len(accessible))
+    return json.loads(json.dumps(accessible))
 
 
 def get_course(user: str, course_id: str) -> dict:
